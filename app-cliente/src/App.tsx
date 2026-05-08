@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { io, Socket } from "socket.io-client";
 import { GoogleGenAI } from "@google/genai";
 import {
-  Shield, AlertCircle, MapPin, MessageSquare, History,
-  User, ChevronRight, Star, Send, Mic, X, Clock,
-  CheckCircle2, Phone, Video, ArrowLeft, Search,
+  Shield, AlertCircle, MapPin, History,
+  User, ChevronRight, Star, Send,
+  Phone, Video, ArrowLeft,
   Gavel, Navigation, Wifi, WifiOff
 } from "lucide-react";
 
